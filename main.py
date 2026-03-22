@@ -18,6 +18,7 @@ def clear_drawing() -> None:
     jim.clear()
     jim.penup()
     jim.home()
+    jim.pendown()
 
 screen = Screen()
 
